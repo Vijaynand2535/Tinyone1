@@ -1,0 +1,256 @@
+:root{
+    --color-primary : #fcdb00;
+    --text-color-primary : #010101; 
+    --text-color-sec :#313841;
+    --text-color-tir :#555555;
+    --text-color-qtr :#898989;
+    --text-color-qnr :#ffffff;
+
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* -----------hero img css starts----*/
+
+.heroimg{
+    padding: 75px 0 105px;
+    background-color: var(--color-primary);
+}
+
+.mainheader.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default.mainheader .navbar-nav>li>a {
+    color: var(--text-color-primary);
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.inspiration{
+    margin-top: 50px;
+}
+.brandlist li{
+    display: inline-block;
+    margin-right: 25px;
+    
+}
+.brandlist li a i{
+    color: var(--text-color-primary);
+}
+
+
+
+
+/***----features  section starts here-----**/
+
+.features{
+    padding-top: 120px 0 170px;
+}
+.features .pri-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text-color-primary);
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+.features .sec-heading{
+    margin-bottom: 90px;
+}
+
+.thumbnail h4{
+    margin: 0 0 15px;
+    font-size: 22px;
+    color: var(--text-color-primary);
+    
+}
+.thumbnail p{
+    color: var(--text-color-qtr);
+    font-size: 16px;
+}
+.thumbnail{
+    margin-bottom: 50px;
+    border: none;
+}
+/*---------keepintouch css starts here---*/
+
+.keepintouch{
+    background-color: var(--text-color-primary);
+    padding:  97px 0 140px;
+}
+.keepintouch .icons{
+    list-style: none; 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 132px;
+}
+.keepintouch .pri-heading{
+    color: var(--color-primary);
+}
+.keepintouch .sec-heading{
+    color: var(--text-color-qtr);
+    margin-bottom: 45px;
+}
+.keepintouch .form-control {
+	display: inline-block;
+    width: calc(100% - 300px);
+    height: 50px;
+    padding: 0 25px;
+    color: #898989;
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+
+.form-control:focus {
+    border-style: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.keepintouch .btn-default {
+    color: #010101;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fbdb00;
+    border-style: none;
+    width: 125px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.btn-default{
+	border-style: none;
+}
+
+.btn:active:focus, .btn:focus{
+    outline: none;
+    outline-offset: -2px;
+}
+
+.btn-default:active:focus{
+	background-color: #fbdb00;
+}
+
+.keepintouch .icons li a{
+    color: var(--color-primary);
+}
+
+.keepintouch .icons li {
+    margin-right: 31px;
+    
+}
+/*---------footer css starts here-------*/
+
+.footerlinks li, .footerlinks a{
+    color: var(--text-color-qnr);
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.footerlinks1 li, .footerlinks1 a{
+    color: var(--text-color-qnr);
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+
+
+
+
+
+@media all and (min-width: 768px){
+
+    .mainheader .navbar-brand{
+        padding-top:0;
+        padding-bottom: 0;
+    }
+    .mainheader{
+        margin-bottom: 55px;
+    }
+    .navbar-nav>li{
+        float: left;
+        margin-left: 30px;
+    }
+    .ipad{
+        margin-left: 90px;
+        
+    }
+    .col-xs-3{
+        padding-left: 0;
+    }
+    
+    
+
+    
+}
+
+@media all and (max-width:600px){
+	.ipad{
+		margin: 0;
+        width: 100%;
+	}
+}
+
+@media all and (max-width:768px) {
+    .section{
+        padding: 50px 0;
+    }
+
+    .mainheader .navbar-brand{
+           padding: 0 15px;
+    }
+    .mainheader .navbar-toggle{
+        border-color: #010101;
+    }
+    .mainheader .navbar-toggle .icon-bar{
+        background-color: #010101;
+    }
+    .inspiration{
+        margin-top: 0 0 50px;
+    }
+  
+     
+    .features .sec-heading{
+        margin-bottom: 50px;
+    }
+    .thumbnail{
+        margin-bottom: 20px;
+    }
+
+    .keepintouch .icons{
+        
+        margin-bottom: 70px;
+    }
+    .keepintouch .form-control {
+        width: 100%;
+        margin-bottom: 30px;
+        }
+    .keepintouch .btn-default {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .brandlist{
+        padding-bottom: 30px;
+     }
+     
+
+   
+
+ }
+
+
+   
